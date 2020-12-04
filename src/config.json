@@ -1,0 +1,7 @@
+{
+  "apiUrl": "https://sandcastle.taxonworks.org/api/v1",
+  "apiParams": {
+    "token": "irDGhP_PF97b93YtqTuFdw",
+    "project_id": 2
+  }
+}
