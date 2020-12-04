@@ -28,14 +28,11 @@ export default {
       default: () => {
         return [
           {
-            url: apiConfig.apiUrl,
+            url: 'http://localhost:3000/api/v1/taxon_names/autocomplete',
             param: 'term',
             extraParams: apiConfig.apiParams
           },
-          // {
-          //   url: 'https://api.bionomia.net/user.json',
-          //   param: 'q'
-          // }
+          // Add more endpoints configurations to search on other servers 
         ]
       }
     }
